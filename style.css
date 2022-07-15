@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  flex-direction: column;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  margin-top: 30px;
+}
+
+a {
+  color: #cbe86b;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #aedd2b;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #e6324b;
+}

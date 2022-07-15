@@ -29,11 +29,13 @@ h1 {
     width: 800px;
     display: flex;
 }
+
 .color {
     flex: 1;
     height: 40px;
     cursor: pointer;
 }
+
 .color.active {
     border: 5px solid #FFF;
 }
@@ -47,8 +49,10 @@ h1 {
     cursor: pointer;
 }
 
-footer {
-    margin-top: 20px;
-    color: #FFF;
-    font-size: 13px;
+.goback {
+    color: #c8ff00;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 50px;
 }
